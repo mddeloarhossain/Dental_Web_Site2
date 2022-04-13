@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 20px;
+	color: #000;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.navbar{
+	background-color: aliceblue;
+	overflow: hidden;
+}
+.logo{
+	width: 30%;
+	float: left;
+}
+.logo img{
+	width: 60px;
+	height: 60px;
+	display: block;
+}
+.main_menu{
+	width: 70%;
+	float: right;
+}
+.main_menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.main_menu ul li{
+	float: left;
+	border-right: 1px solid #ddd;
+}
+.main_menu ul li a{
+	display: block;
+	padding: 20px 30px;
+	text-decoration: none;
+	color: #000;
+}
+.main_menu ul li a:hover{
+	background-color: #fff;
+}
+.slider{
+	overflow: hidden;
+}
+.slider img{
+	width: 100%;
+	height: 400px;
+	display: block;
+}
+.subtitle{
+	background-color: aliceblue;
+	text-align: center;
+	padding: 40px;
+}
+.sub_image img{
+	width: 100%;
+	height: 400px;
+	display: block;
+}
+.main_content{
+	overflow: hidden;
+	background-color: aliceblue;
+	padding: 40px 20px;
+}
+.main_content h2{
+	margin-bottom: 10px;
+}
+.content{
+	width: 60%;
+	float: left;
+}
+.content p{
+	text-align: justify;
+}
+.sidebar{
+	width: 35%;
+	float: right;
+}
+.sidebar ul{
+	list-style: none;
+}
+.sidebar ul li{
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+}
+.sidebar ul li a{
+	text-decoration: none;
+	color: #000;
+}
+.sidebar ul li:hover{
+	background-color: #ededed;
+}
+.footer{
+	background-color: #ededed;
+}
+.footer p{
+	padding: 15px;
+	text-align: center;
+}
+.footer p a{
+	text-decoration: none;
+	color: #000;
+}
